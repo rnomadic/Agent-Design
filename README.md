@@ -12,6 +12,16 @@ The intention of agentic AI patterns are essentially design techniques that give
 
 
 ## 1. Reflection: Teach Your Agent to Check Its Own Work
+Ever asked ChatGPT a question, read the answer, and thought, “This sounds good… but something’s off”? <br>
+<br>
+That’s where Reflection comes in. It’s a simple trick: have the model take a second look at its own output before finalizing it. <br>
+
+The basic flow: <br>
+<br>
+Ask the question.<br>
+Have the model answer.<br>
+Then prompt it again: “Was that complete? Anything missing? How could it be better?”<br>
+Let it revise itself.<br>
 
 
 
