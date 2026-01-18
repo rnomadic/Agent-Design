@@ -23,6 +23,10 @@ Have the model answer.<br>
 Then prompt it again: “Was that complete? Anything missing? How could it be better?”<br>
 Let it revise itself.<br>
 
+You’re not stacking models or adding complexity. You’re just making it double-check its work. And honestly, that alone cuts down on a ton of sloppy mistakes; especially for code, summaries, or anything detail-heavy. <br>
+<br>
+Think of it like giving your model a pause button and a mirror. <br>
+
 ![0_BnHljDx_9gV_MiBD](https://github.com/user-attachments/assets/8c8560c0-9ca3-46b7-9393-4fe47fbe8e58)
 
 
