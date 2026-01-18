@@ -40,3 +40,59 @@ This setup does require a bit of plumbing: function-calling, routing, maybe some
 
 People assume LLMs should be smart out of the box. They’re not. But they get a lot smarter when they’re allowed to reach for the right tools.
 
+![0_nHCaGi1FCWarqB7T](https://github.com/user-attachments/assets/b688ec11-ff14-489c-9022-1fe0a41f3794)
+
+## 3. ReAct: Model Can Think While It Is Doing Some Acts
+
+Reflection’s good. Tools are good. But when you let your agent think and act in loops, it gets even better.
+
+That’s what the ReAct pattern is all about: Reasoning + Acting.
+
+Instead of answering everything in one go, the model reasons step-by-step and adjusts its actions as it learns more.
+
+Example:
+
+Goal: “Find the user’s recent invoices.”
+Step 1: “Query payments database.”
+Step 2: “Hmm, results are outdated. Better ask the user to confirm.”
+Step 3: Adjust query, repeat.
+It’s not just responding — it’s navigating.
+
+To make ReAct work, you’ll need three things:
+
+Tools (for taking action)
+Memory (for keeping context)
+A reasoning loop (to track progress)
+ReAct makes your agents flexible. Instead of sticking to a rigid script, they think through each step, adapt in real-time, and course-correct as new information comes in.
+
+If you want to build anything beyond a quick one-off answer, this is the pattern you need.
+
+![0_o0dRsUIiUr8RPLIa](https://github.com/user-attachments/assets/46486fed-c833-434f-970e-7398dde576b8)
+
+## 4. Planning: Can You Teach Your Agent to Think Ahead
+
+LLMs are pretty good at quick answers. But for anything involving multiple steps? They fall flat.
+
+Planning helps with that.
+
+Instead of answering everything in one shot, the model breaks the goal into smaller, more manageable tasks.
+
+Let’s say someone asks, “Help me launch a product.” The agent might respond with:
+
+Define the audience
+Design a landing page
+Set up email campaigns
+Draft announcement copy
+Then it tackles each part, one step at a time.
+
+You can bake this into your prompt or have the model come up with the plan itself. Bonus points if you store the plan somewhere so the agent can pick up where it left off later.
+
+Planning turns your agent from a reactive helper into a proactive one.
+
+This is the pattern to use for workflows and any task that needs multiple steps.
+
+![0_RGsbSVLCPhWmdpSK](https://github.com/user-attachments/assets/bdc834d2-c0c4-463e-9aa6-971e735a7430)
+
+
+
+
