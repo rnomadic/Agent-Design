@@ -49,7 +49,7 @@ Now we can start connecting the nodes, and need to set the first entry point for
 
 The last thing we need to do is compile the workflow.
 
-Please refer the Langchain_Workflow.py for implementation detail.
+Please refer the Langchain-Callflow.py for implementation detail.
 
 #### Testing the workflow
 
