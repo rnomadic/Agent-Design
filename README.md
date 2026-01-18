@@ -51,6 +51,19 @@ The last thing we need to do is compile the workflow.
 
 Please refer the Langchain_Workflow.py for implementation detail.
 
+#### Testing the workflow
+
+To test this workflow, open up LangGraph Studio, connect to LangSmith (free to create an account), turn on Docker Desktop (make sure it's the latest version), and then open the langgraph_example project.
+
+<img width="1456" height="919" alt="image" src="https://github.com/user-attachments/assets/3b0865a2-1ab4-4041-8cbf-96b9290821ce" />
+
+Once it’s loaded, you’ll be able to add a human message and submit it to see what happens.
+
+<img width="1456" height="914" alt="image" src="https://github.com/user-attachments/assets/f73304b7-b01b-40ad-8a4d-d0b53c72af1f" />
+
+It only has those two mock tools available, so it won’t be very useful in practical scenario, however it will be useful for understanding the call sequence.
+
+<img width="1456" height="871" alt="image" src="https://github.com/user-attachments/assets/56e4aed9-2f9c-4771-949f-2d6ce08697f2" />
 
 
 # Agentic AI Patterns 
