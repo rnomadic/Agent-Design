@@ -5,6 +5,17 @@ Below is the snapshot of SOLID is all about.
 
 <img width="1225" height="760" alt="image" src="https://github.com/user-attachments/assets/14435d64-c776-45a5-b750-129bec0f4610" />
 
+# How you can build Simple Agent Using Langgraph
+LangGraph is one of the more popular low-level orchestration frameworks for building agentic workflows among the developer community. It was built by the LangChain team, who hoped it would give builders better control by making the flow explicit.
+
+It might feel overwhelming at first, but it gets easier once you understand the fundamentals—which is exactly what we’ll go through here by building a single-agent workflow that we can visualize and test in LangGraph Studio.
+
+Essentially, with LangGraph, you’re writing code that can be visualized as a graph with nodes. You won’t be working in a visual programming system; instead, you code it manually and then visualize and debug it via LangGraph Studio (though that part is optional).
+
+<img width="1456" height="668" alt="image" src="https://github.com/user-attachments/assets/d875d178-cdac-473b-b759-95e87a181006" />
+
+
+
 
 
 # Agentic AI Patterns 
