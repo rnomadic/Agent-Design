@@ -23,5 +23,6 @@ Have the model answer.<br>
 Then prompt it again: “Was that complete? Anything missing? How could it be better?”<br>
 Let it revise itself.<br>
 
+![0_BnHljDx_9gV_MiBD](https://github.com/user-attachments/assets/8c8560c0-9ca3-46b7-9393-4fe47fbe8e58)
 
 
