@@ -15,6 +15,41 @@ Essentially, with LangGraph, you’re writing code that can be visualized as a g
 <img width="1456" height="668" alt="image" src="https://github.com/user-attachments/assets/d875d178-cdac-473b-b759-95e87a181006" />
 
 
+### Some important aspect of Agentic Design
+#### Node, Graph
+The graph is the overall framework for setting up your agent’s workflow. See it as the environment we need to execute our workflow. We always set up the graph first.
+
+After defining the graph, we set up our nodes—these are the core functionalities or operations. Nodes are where everything happens. In an agent workflow, a node could do anything from calling an LLM to invoking a tool (like a search function or an API), or performing some computation.
+
+The edges are the connections between nodes. They tell the graph which node to go to next. Edges can be static (always go from A to B) or conditional (branch based on something in the state). So essentially, nodes do the work, edges decide what happens next.
+
+<img width="1456" height="442" alt="image" src="https://github.com/user-attachments/assets/29969363-f48e-4156-9cec-6780a01c001d" />
+
+
+#### State
+
+State is the current memory or context of the workflow, where we hold all the data that flows between nodes.
+
+You can think of state as short-term memory—it sticks around during the current run or conversation. It often holds things like conversation history between LLM calls or variables we need in multiple places.
+
+<img width="1456" height="511" alt="image" src="https://github.com/user-attachments/assets/bd1e3287-0923-4c0f-b591-9e9409ed499a" />
+
+
+#### Tool
+LLM doesn’t know what’s in the database. Or in your files. Or today’s headlines. And that’s okay — because you can let it fetch that stuff.
+
+<img width="1438" height="568" alt="image" src="https://github.com/user-attachments/assets/d9e3c814-e079-40bf-8088-28691e3ab227" />
+
+#### Adding Edges
+Now we can start connecting the nodes, and need to set the first entry point for the workflow:
+
+<img width="1456" height="596" alt="image" src="https://github.com/user-attachments/assets/4d18ad2d-a366-4a1a-966a-7f8ed0bb684a" />
+
+#### Compiling the Workflow
+
+The last thing we need to do is compile the workflow.
+
+Please refer the Langchain_Workflow.py for implementation detail.
 
 
 
