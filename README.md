@@ -1,11 +1,16 @@
 # Agent Workflow with Object Oriented Design
-Try to go though the codebase as per the sequence. This design is based out of Python Object Orient Design, SOLID Principle.
+You should design your agentic workflow based on the Object Oriented Design Principle of Python. This will give you flexibility to design the software in more modular, flexible and scalable for future expansion. Basic idea is not to modify existing code base while adding new features, different techstack under the application callflow.
 
-Below is the snapshot of SOLID is all about.
+Fundamental guidelines is provided by the SOLID principle.
+
+You can refer the code inside OOD. Try to go though the codebase as per the sequence. 
+
 
 <img width="1225" height="760" alt="image" src="https://github.com/user-attachments/assets/14435d64-c776-45a5-b750-129bec0f4610" />
 
-# How you can build Simple Agent Using Langgraph
+
+
+# Let's Build A Simple Agent Using Langgraph
 LangGraph is one of the more popular low-level orchestration frameworks for building agentic workflows among the developer community. It was built by the LangChain team, who hoped it would give builders better control by making the flow explicit.
 
 It might feel overwhelming at first, but it gets easier once you understand the fundamentals—which is exactly what we’ll go through here by building a single-agent workflow that we can visualize and test in LangGraph Studio.
@@ -15,7 +20,7 @@ Essentially, with LangGraph, you’re writing code that can be visualized as a g
 <img width="1456" height="668" alt="image" src="https://github.com/user-attachments/assets/d875d178-cdac-473b-b759-95e87a181006" />
 
 
-### Some important aspect of Agentic Design
+### Some Important Aspect Of Agentic Design
 #### Node, Graph
 The graph is the overall framework for setting up your agent’s workflow. See it as the environment we need to execute our workflow. We always set up the graph first.
 
