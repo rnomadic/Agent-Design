@@ -93,6 +93,49 @@ This is the pattern to use for workflows and any task that needs multiple steps.
 
 ![0_RGsbSVLCPhWmdpSK](https://github.com/user-attachments/assets/bdc834d2-c0c4-463e-9aa6-971e735a7430)
 
+## 5. Multi-Agent: Get a Team of Agent Working Together To Accomplish a Complex Task
+
+Why rely on one agent when you can have a whole team working together?
+
+Multi-Agent setups assign different roles to different agents, each handling a piece of the puzzle. They collaborate — sometimes even argue — to come up with better solutions.
+
+Typical setup:
+
+Researcher gathers info
+Planner outline steps
+Coder writes the code
+Reviewer double-check everything
+PM: keeps it all moving
+It doesn’t have to be fancy. Even basic coordination works:
+
+Give each agent a name and job.
+Let them message each other through a controller.
+Watch as they iterate, critique, and refine.
+
+The magic happens when they disagree. That’s when you get sharper insights and deeper thinking.
+
+![0_yWrvDIxeOiYMWNgj](https://github.com/user-attachments/assets/9f40cdc4-7afb-40cf-bd4c-f46da9f41661)
+
+### Simple Starting Point
+Let’s say you’re building a research assistant. Here’s a no-nonsense setup that puts these patterns into play:
+
+#### 1. Start with Planning
+Prompt: “Break this research task into clear steps before answering.”
+Example: “1. Define keywords, 2. Search recent papers, 3. Summarize findings.”
+
+#### 2. Use Tool Use
+Hook it up to a search API or a vector DB so it’s pulling real facts — not making stuff up.
+
+#### 3. Add Reflection
+After each answer, prompt: “What’s missing? What could be clearer?” Then regenerate.
+
+#### 4. Wrap it in ReAct
+Let the agent think between steps. “Results look shallow — retrying with new terms.” Then act again.
+
+#### 5. Expand to Multi-Agent (optional)
+One agent writes. Another critiques.
+They talk. They argue. The output gets better.
+
 
 
 
